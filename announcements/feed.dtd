@@ -1,0 +1,19 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+
+<!ELEMENT feed (announcement+)>
+<!ELEMENT announcement (itemID, customClass, customStyle, title, body, display, audience, color)>
+<!ELEMENT itemID (#PCDATA)>
+<!ELEMENT customClass (#PCDATA)>
+<!ELEMENT customStyle (#PCDATA)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT body (#PCDATA)>
+<!ELEMENT display (from, until)>
+<!ELEMENT from (#PCDATA)>
+<!ELEMENT until (#PCDATA)>
+<!ELEMENT audience (oscar, student, applicant, faculty, staff)>
+<!ELEMENT oscar (#PCDATA)>
+<!ELEMENT student (#PCDATA)>
+<!ELEMENT applicant (#PCDATA)>
+<!ELEMENT faculty (#PCDATA)>
+<!ELEMENT staff (#PCDATA)>
+<!ELEMENT color (#PCDATA)>

@@ -1,0 +1,118 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE feed SYSTEM "feed.dtd">
+<feed>
+   <announcement>
+      <itemID>announcement_dev0p</itemID>
+      <customClass>b3-danger b3-bg-danger</customClass>
+      <customStyle>display: block; padding: 15px; list-style-type: none; margin-right: 20px;</customStyle>
+      <title>null</title>
+      <body><![CDATA[<span><b>Temporary Downtime for Student Information System</b><br/>All of Banner Production and ancillary systems will be unavailable from 12:00 PM on Saturday, June 5, 2020 until approximately 9:00 AM on Tuesday, June 9, 2020 while the Student Information System and database are upgraded.&nbsp;&nbsp;<a href="https://status.gatech.edu#statusio_maintenance_scheduled_5ed142bec79fdb04bf591449" target="_blank"></a></span>]]></body>
+      <display>
+         <from>20190529080000</from>
+         <until>20190609093000</until>
+      </display>
+      <audience>
+         <oscar>Y</oscar>
+         <downpage>Y</downpage>
+         <student>Y</student>
+         <applicant>N</applicant>
+         <faculty>Y</faculty>
+         <staff>Y</staff>
+      </audience>
+   </announcement>
+   <announcement>
+      <itemID>announcement_dev1p</itemID>
+      <customClass>text-danger</customClass>
+      <customStyle>null</customStyle>
+      <title>This is one example announcement.</title>
+      <body>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</body>
+      <display>
+         <from>20181231150000</from>
+         <until>20190923163000</until>
+      </display>
+      <audience>
+         <oscar>Y</oscar>
+         <downpage>Y</downpage>
+         <student>Y</student>
+         <applicant>Y</applicant>
+         <faculty>Y</faculty>
+         <staff>Y</staff>
+      </audience>
+   </announcement>
+   <announcement>
+      <itemID>announcement_dev2p</itemID>
+      <customClass>text</customClass>
+      <customStyle>null</customStyle>
+      <title>This is an example announcement on the PROD instance.</title>
+      <body><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit. <a href="https://comp3.registrar.gatech.edu/announcements/feed.xml" target="_blank">Read more</a>]]></body>
+      <display>
+         <from>20181231150000</from>
+         <until>20191031163000</until>
+      </display>
+      <audience>
+         <oscar>Y</oscar>
+         <downpage>N</downpage>
+         <student>Y</student>
+         <applicant>Y</applicant>
+         <faculty>Y</faculty>
+         <staff>Y</staff>
+      </audience>
+   </announcement>
+   <announcement>
+      <itemID>announcement_x2</itemID>
+      <customClass>text</customClass>
+      <customStyle>null</customStyle>
+      <title>Temporary Downtime for the Student Information System: Thurs., Nov. 4</title>
+      <body><![CDATA[<span>All of Banner Production and ancillary systems, including OSCAR and Degree Works, will be unavailable from <b>Thursday, November 4th</b> at <b>8:00 PM EDT</b> until <b>Friday, November 5th</b> at <b>5:00 AM EDT</b> while OIT applies patches to the operating systems, application clients, and database servers for Banner and DegreeWorks.</span>]]></body>
+      <display>
+         <from>20211103080000</from>
+         <until>20211105053000</until>
+      </display>
+      <audience>
+         <oscar>Y</oscar>
+         <downpage>Y</downpage>
+         <student>Y</student>
+         <applicant>N</applicant>
+         <faculty>Y</faculty>
+         <staff>Y</staff>
+      </audience>
+   </announcement>
+   <announcement>
+      <itemID>announcement_20200204</itemID>
+      <customClass>null</customClass>
+      <customStyle>text</customStyle>
+      <title>If you see a "Sesson Timeout" error when accessing OSCAR...</title>
+      <body>The "Session Timeout" error is evidence of an expired cookie stored in the browser. Using a private or incognito window might or might not solve the problem. Switch to a different browser and/or clear out stored cookies.</body>
+      <display>
+         <from>20200101123000</from>
+         <until>20220601235900</until>
+      </display>
+      <audience>
+         <oscar>Y</oscar>
+         <downpage>N</downpage>
+         <student>Y</student>
+         <applicant>N</applicant>
+         <faculty>Y</faculty>
+         <staff>Y</staff>
+      </audience>
+   </announcement>
+   <announcement>
+      <itemID>announcement_20200312-20201231</itemID>
+      <customClass>text</customClass>
+      <customStyle>null</customStyle>
+      <title>Updates on the campus response to coronavirus (Covid-19)</title>
+      <body><![CDATA[<a class="font-weight-bold" href="https://health.gatech.edu/tech-moving-forward" target="_blank">Tech Moving Forward</a>]]></body>
+      <display>
+         <from>20200312080000</from>
+         <until>20220601235900</until>
+      </display>
+      <audience>
+         <oscar>Y</oscar>
+         <downpage>N</downpage>
+         <student>Y</student>
+         <applicant>Y</applicant>
+         <faculty>Y</faculty>
+         <staff>Y</staff>
+      </audience>
+   </announcement>
+</feed>

@@ -1,0 +1,23 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE feed SYSTEM "feed.dtd">
+<feed>
+   <announcement>
+      <itemID>announcement_dev0p</itemID>
+      <customClass>b3-danger b3-bg-danger</customClass>
+      <customStyle>display: block; padding: 15px; list-style-type: none; margin-right: 20px;</customStyle>
+      <title>null</title>
+      <body><![CDATA[<span><b>Temporary Downtime for OSCAR Self Service</b><br/>OSCAR self service is currently unavailable.&nbsp;&nbsp;<a href="https://status.gatech.edu#statusio_maintenance_scheduled_5ed142bec79fdb04bf591449" target="_blank"></a></span>]]></body>
+      <display>
+         <from>20201109080000</from>
+         <until>20201109230000</until>
+      </display>
+      <audience>
+         <oscar>Y</oscar>
+         <downpage>Y</downpage>
+         <student>Y</student>
+         <applicant>N</applicant>
+         <faculty>Y</faculty>
+         <staff>Y</staff>
+      </audience>
+   </announcement>
+</feed>

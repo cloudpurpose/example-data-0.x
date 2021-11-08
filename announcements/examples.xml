@@ -1,0 +1,70 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+
+<!DOCTYPE feed SYSTEM "feed.dtd">
+<feed>
+
+    <!-- 001 -->
+   <announcement>
+      <itemID>announcement_001</itemID>
+      <customClass>text-danger</customClass>
+      <customStyle>null</customStyle>
+      <title>This is one example announcement.</title>
+      <body>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</body>
+      <display>
+         <from>20181231150000</from>
+         <until>20190923163000</until>
+      </display>
+      <audience>
+         <oscar>Y</oscar>
+         <downpage>Y</downpage>
+         <student>Y</student>
+         <applicant>Y</applicant>
+         <faculty>Y</faculty>
+         <staff>Y</staff>
+      </audience>
+   </announcement>
+
+    <!-- 002 -->
+   <announcement>
+      <itemID>announcement_002</itemID>
+      <customClass>text</customClass>
+      <customStyle>null</customStyle>
+      <title>This is another example announcement.</title>
+      <body><![CDATA[Cras non quam eu nisl condimentum placerat et vitae urna. <a href="https://registrar.gatech.edu" target="_blank">Read more</a>]]></body>
+      <display>
+         <from>20181231150000</from>
+         <until>20191031163000</until>
+      </display>
+      <audience>
+         <oscar>Y</oscar>
+         <downpage>Y</downpage>
+         <student>Y</student>
+         <applicant>Y</applicant>
+         <faculty>Y</faculty>
+         <staff>Y</staff>
+      </audience>
+   </announcement>
+
+   <!-- EXAMPLE...
+   <announcement>
+      <itemID>announcement_X</itemID>
+      <customClass>text-danger text-muted</customClass>
+      <customStyle>display: block;</customStyle>
+      <title>This is an example announcement.</title>
+      <body><![CDATA[Cras non quam eu nisl condimentum placerat et vitae urna.<br/><a href="https://registrar.gatech.edu" target="_blank">Read more</a>]]></body>
+      <display>
+         <from>YYYYMMDDHHmmss</from>
+         <until>YYYYMMDDHHmmss</until>
+      </display>
+      <audience>
+         <oscar>Y</oscar>
+         <downpage>Y</downpage>
+         <student>N</student>
+         <applicant>Y</applicant>
+         <faculty>N</faculty>
+         <staff>Y</staff>
+      </audience>
+   </announcement>
+   -->
+
+</feed>

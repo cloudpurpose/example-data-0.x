@@ -1,0 +1,137 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE feed SYSTEM "feed.dtd">
+<feed>
+   <announcement>
+      <itemID>announcement_dev0t</itemID>
+      <customClass>text-danger</customClass>
+      <customStyle>null</customStyle>
+      <title>Temporary Downtime for SIS TEST instance.</title>
+      <body><![CDATA[<span>Today (Tuesday, Oct. 22nd) between 12:00 PM and 1:00 PM Banner Test (BTEST) will not be available so that EIS can update initialization parameters for the instance (i.e.: downtime required to restart with new parameters).</span>]]></body>
+      <display>
+         <from>20181231150000</from>
+         <until>20191022130000</until>
+      </display>
+      <audience>
+         <oscar>Y</oscar>
+         <downpage>Y</downpage>
+         <student>N</student>
+         <applicant>N</applicant>
+         <faculty>N</faculty>
+         <staff>N</staff>
+      </audience>
+   </announcement>
+   <announcement>
+      <itemID>announcement_20200430-20200430</itemID>
+      <customClass>text</customClass>
+      <customStyle>null</customStyle>
+      <title>OSCAR Downtime</title>
+      <body><![CDATA[OSCAR will be unavailable on Thursday, October 29th from 9:00 PM until approximately 8:00 AM on Friday, October 30th.]]></body>
+      <display>
+         <from>20201029080000</from>
+         <until>20201030080000</until>
+      </display>
+      <audience>
+         <oscar>Y</oscar>
+         <downpage>Y</downpage>
+         <student>Y</student>
+         <applicant>N</applicant>
+         <faculty>Y</faculty>
+         <staff>Y</staff>
+      </audience>
+   </announcement>
+   <announcement>
+      <itemID>announcement_dev0t</itemID>
+      <customClass>b3-danger b3-bg-danger</customClass>
+      <customStyle>display: block; padding: 15px; list-style-type: none; margin-right: 20px;</customStyle>
+      <title>null</title>
+      <body><![CDATA[<span><b>Temporary Downtime for SIS TEST instance.</b><br/><br/>Banner Test (BTEST) will be unavailable starting at 9:30 AM on Thursday, Jan. 16th, so that Financial Aid and BOR/ITS modules may be installed.</span>]]></body>
+      <display>
+         <from>20200116093000</from>
+         <until>20200116113000</until>
+      </display>
+      <audience>
+         <oscar>Y</oscar>
+         <downpage>Y</downpage>
+         <student>N</student>
+         <applicant>N</applicant>
+         <faculty>N</faculty>
+         <staff>N</staff>
+      </audience>
+   </announcement>
+   <announcement>
+      <itemID>announcement_dev1t</itemID>
+      <customClass>text</customClass>
+      <customStyle>null</customStyle>
+      <title>You are currently viewing the test instance.</title>
+      <body><![CDATA[<span class="text-muted">These announcements pertain to the test instance.</span>]]></body>
+      <display>
+         <from>20191022130000</from>
+         <until>20300116093000</until>
+      </display>
+      <audience>
+         <oscar>Y</oscar>
+         <downpage>Y</downpage>
+         <student>Y</student>
+         <applicant>Y</applicant>
+         <faculty>Y</faculty>
+         <staff>Y</staff>
+      </audience>
+   </announcement>
+   <announcement>
+      <itemID>announcement_dev2t</itemID>
+      <customClass>text</customClass>
+      <customStyle>null</customStyle>
+      <title>This is yet another example announcement.</title>
+      <body><![CDATA[Cras non quam eu nisl condimentum placerat et vitae urna. <a href="https://comp3.registrar.gatech.edu/announcements/feed.xml" target="_blank">Read more</a>]]></body>
+      <display>
+         <from>20181231150000</from>
+         <until>20191031163000</until>
+      </display>
+      <audience>
+         <oscar>N</oscar>
+         <downpage>N</downpage>
+         <student>Y</student>
+         <applicant>Y</applicant>
+         <faculty>Y</faculty>
+         <staff>Y</staff>
+      </audience>
+   </announcement>
+   <announcement>
+      <itemID>announcement_20200106-0110</itemID>
+      <customClass>text</customClass>
+      <customStyle>null</customStyle>
+      <title>Spring 2020 Deadline for Registration/Schedule Changes is January 10th</title>
+      <body><![CDATA[<span class="">Last day to register, make schedule changes, and/or drop without a "W" grade for Spring Semester 2020 is Friday, January 10th by 4:00pm Eastern Time. No changes to/from audit mode permitted after the registration deadline.</span>]]></body>
+      <display>
+         <from>20200106080000</from>
+         <until>20200110160000</until>
+      </display>
+      <audience>
+         <oscar>Y</oscar>
+         <downpage>N</downpage>
+         <student>Y</student>
+         <applicant>N</applicant>
+         <faculty>Y</faculty>
+         <staff>Y</staff>
+      </audience>
+   </announcement>
+   <announcement>
+      <itemID>announcement_20191122-1121</itemID>
+      <customClass>text</customClass>
+      <customStyle>null</customStyle>
+      <title>null</title>
+      <body><![CDATA[<p><b>For more information about the Georgia Tech Financial Agreement please refer to these websites:</b></p><ul><li><a href="http://www.catalog.gatech.edu/financial/student-financial-agreement/" target="_blank">Financial Agreement Text and Information</a></li><li><a href="http://bursar.gatech.edu/fin_resp" target="_blank">Information on How Clear the Financial Responsibility Agreement Hold</a></li></ul>]]></body>
+      <display>
+         <from>20191122110000</from>
+         <until>20200106080000</until>
+      </display>
+      <audience>
+         <oscar>Y</oscar>
+         <downpage>N</downpage>
+         <student>N</student>
+         <applicant>N</applicant>
+         <faculty>N</faculty>
+         <staff>N</staff>
+      </audience>
+   </announcement>
+</feed>
